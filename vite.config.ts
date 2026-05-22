@@ -1,9 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-
 export default defineConfig(() => ({
-  base: '/portfolio/',
+  // Remove this line: base: '/portfolio/',
   server: {
     host: "::",
     port: 8080,
