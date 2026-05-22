@@ -9,7 +9,7 @@ const highlights = [
   {
     icon: Database,
     title: 'Data Driven',
-    description: 'Extracting business insights from data using Python, SQL, and statistical analysis',
+    description: 'Extracting business insights from data using Python, SQL, and statistical analysis ',
   },
   {
     icon: Rocket,
