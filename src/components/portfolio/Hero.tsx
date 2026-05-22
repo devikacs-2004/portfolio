@@ -23,7 +23,7 @@ export function Hero() {
       <div className="section-container text-center relative z-10">
         <div className="animate-fade-up">
           <p className="text-primary font-medium text-sm tracking-widest uppercase mb-6">
-            Aspiring Data Scientist · UAE
+            Aspiring Data Scientist 
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export function Hero() {
 
           <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">
             Building end-to-end ML systems that turn data into business decisions.
-            Learning by doing. Shipping real products.
+            Learning by doing. 
           </p>
         </div>
 

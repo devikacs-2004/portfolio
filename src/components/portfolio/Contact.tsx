@@ -76,7 +76,7 @@ export function Contact() {
       <div className="text-center mb-16">
         <h2 className="section-title">Get In Touch</h2>
         <p className="section-subtitle max-w-2xl mx-auto">
-          Open to opportunities in Data Science and Data Analytics in UAE
+          Open to opportunities in Data Science and Data Analytics
         </p>
       </div>
 
