@@ -33,16 +33,6 @@ const projects = [
     demoUrl: 'https://supply-chain-warning-system-ytznycvaxidfwgxhpctdey.streamlit.app/',
   },
   {
-    title: 'Customer Churn — Exploratory Data Analysis',
-    description:
-      'Published end-to-end EDA on IBM Telco Churn dataset. Uncovered key churn drivers: month-to-month customers churn 3x more than yearly contracts, first 10 months is the highest risk window, and Fiber Optic + high charges = highest churn segment. Visualised with Seaborn and Matplotlib.',
-    tags: ['Python', 'Pandas', 'Seaborn', 'Matplotlib', 'EDA'],
-    icon: BarChart2,
-    featured: true,
-    githubUrl: '',
-    demoUrl: 'https://www.kaggle.com/code/devikasubij/saas-customer-churn-eda',
-  },
-  {
     title: 'Amazon Clone',
     description:
       'A responsive Amazon-inspired e-commerce landing page showcasing a clean UI with navigation, search bar, promotional banners, and product sections. Built to demonstrate front-end design skills, responsive layouts, and real-world e-commerce interface patterns.',
