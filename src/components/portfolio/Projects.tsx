@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Brain, Wallet, Code, BarChart2, AlertTriangle } from 'lucide-react';
+import { ExternalLink, Github, Brain, Wallet, Code, BarChart2, AlertTriangle,Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const projects = [
@@ -11,6 +11,16 @@ const projects = [
     featured: true,
     githubUrl: 'https://github.com/devikacs-2004/churn-intervention-system',
     demoUrl: 'YOUR-STREAMLIT-URL-HERE',
+  },
+  {
+    title: 'AspectIQ — Product Review Intelligence System',
+    description:
+      'An end-to-end NLP pipeline that analyzes 568K Amazon reviews to surface aspect-level business intelligence. Uses Sentence Transformers (all-MiniLM-L6-v2) and cosine similarity for embedding-based aspect detection across taste, packaging, price, and delivery. VADER sentiment analysis identifies complaint rates per aspect, while Groq LLaMA 3.1 auto-summarizes top complaints into actionable insights. Features a Business Impact Calculator estimating revenue recovery from fixing top complaints. Deployed as a live Streamlit dashboard with Plotly visualizations.',
+    tags: ['Python', 'NLP', 'Sentence Transformers', 'VADER', 'Groq', 'Streamlit', 'Plotly'],
+    icon: Search,
+    featured: true,
+    githubUrl: 'https://github.com/devikacs-2004/AspectIQ',
+    demoUrl: 'https://aspectiq-tjwughn8xcerccaiujmzjs.streamlit.app/',
   },
   {
     title: 'Supply Chain Disruption Early Warning System',
