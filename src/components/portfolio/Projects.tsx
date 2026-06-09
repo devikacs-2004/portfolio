@@ -1,4 +1,4 @@
-import { Brain, Wallet, Code, BarChart2, AlertTriangle } from 'lucide-react';
+import { ExternalLink, Github, Brain, Wallet, Code, BarChart2, AlertTriangle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const projects = [
@@ -10,18 +10,18 @@ const projects = [
     icon: Brain,
     featured: true,
     githubUrl: 'https://github.com/devikacs-2004/churn-intervention-system',
-    demoUrl: 'https://churn-intervention-system-jbftk3ovuxu7xrttoha6l2.streamlit.app/',
+    demoUrl: 'YOUR-STREAMLIT-URL-HERE',
   },
   {
-  title: 'Supply Chain Disruption Early Warning System',
-  description:
-    'A real-time supply chain disruption detection and inventory forecasting system that monitors live global news, weather across 5 major ports, and vessel movements. Uses NLP-based disruption detection, custom severity scoring (1-10), and Facebook Prophet to forecast inventory impact 21 days ahead — firing critical alerts before disruptions hit. Deployed as a live Streamlit dashboard with an interactive Plotly world map.',
-  tags: ['Python', 'Prophet', 'HuggingFace', 'Streamlit', 'Plotly', 'NewsAPI', 'NLP'],
-  icon: AlertTriangle,
-  featured: true,
-  githubUrl: 'https://github.com/devikacs-2004/supply-chain-warning-system',
-  demoUrl: 'https://supply-chain-warning-system-ytznycvaxidfwgxhpctdey.streamlit.app/',
-},
+    title: 'Supply Chain Disruption Early Warning System',
+    description:
+      'A real-time supply chain disruption detection and inventory forecasting system that monitors live global news, weather across 5 major ports, and vessel movements. Uses NLP-based disruption detection, custom severity scoring (1-10), and Facebook Prophet to forecast inventory impact 21 days ahead — firing critical alerts before disruptions hit. Deployed as a live Streamlit dashboard with an interactive Plotly world map.',
+    tags: ['Python', 'Prophet', 'HuggingFace', 'Streamlit', 'Plotly', 'NewsAPI', 'NLP'],
+    icon: AlertTriangle,
+    featured: true,
+    githubUrl: 'https://github.com/devikacs-2004/supply-chain-warning-system',
+    demoUrl: 'https://supply-chain-warning-system-ytznycvaxidfwgxhpctdey.streamlit.app/',
+  },
   {
     title: 'Customer Churn — Exploratory Data Analysis',
     description:
