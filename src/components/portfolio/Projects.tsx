@@ -15,7 +15,7 @@ const projects = [
   {
     title: 'AspectIQ — Product Review Intelligence System',
     description:
-      'An end-to-end NLP pipeline that analyzes 568K Amazon reviews to surface aspect-level business intelligence. Uses Sentence Transformers (all-MiniLM-L6-v2) and cosine similarity for embedding-based aspect detection across taste, packaging, price, and delivery. VADER sentiment analysis identifies complaint rates per aspect, while Groq LLaMA 3.1 auto-summarizes top complaints into actionable insights. Features a Business Impact Calculator estimating revenue recovery from fixing top complaints. Deployed as a live Streamlit dashboard with Plotly visualizations.',
+      'An end-to-end NLP pipeline that analyzes 10K Amazon reviews to surface aspect-level business intelligence. Uses Sentence Transformers (all-MiniLM-L6-v2) and cosine similarity for embedding-based aspect detection across taste, packaging, price, and delivery. VADER sentiment analysis identifies complaint rates per aspect, while Groq LLaMA 3.1 auto-summarizes top complaints into actionable insights. Features a Business Impact Calculator estimating revenue recovery from fixing top complaints. Deployed as a live Streamlit dashboard with Plotly visualizations.',
     tags: ['Python', 'NLP', 'Sentence Transformers', 'VADER', 'Groq', 'Streamlit', 'Plotly'],
     icon: Search,
     featured: true,
