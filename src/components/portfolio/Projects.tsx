@@ -10,7 +10,7 @@ const projects = [
     icon: Brain,
     featured: true,
     githubUrl: 'https://github.com/devikacs-2004/churn-intervention-system',
-    demoUrl: 'YOUR-STREAMLIT-URL-HERE',
+    demoUrl: ' https://churn-intervention-system-jbftk3ovuxu7xrttoha6l2.streamlit.app/',
   },
   {
     title: 'AspectIQ — Product Review Intelligence System',
